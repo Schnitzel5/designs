@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+#bg {
+  background-color: #333333;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+#appbar {
+  background-color: #494949;
+  width: 100vw;
+  height: 10vh;
+}
+
+.card {
+  background-color: #494949;
+  width: fit-content;
+  height: fit-content;
+  max-width: 480px;
+  max-height: 600vh;
+  cursor: move;
+}
+.card .title {
+  font-size: 1.5em;
+  color: white;
+  padding: 10%;
+}
+.card .description {
+  font-size: 1.2em;
+  color: white;
+  padding: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */
